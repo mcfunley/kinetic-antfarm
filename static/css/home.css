@@ -1,0 +1,165 @@
+body, #colony {
+    background-color: #685642;
+    letter-spacing: 0.4px;
+}
+
+#wrap, #colony {
+    margin: 0 auto;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
+#container {
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+}
+
+#wrap {
+    z-index: 10;
+}
+
+#colony {
+    background-color: #685642;
+    background-color: rgba(104, 86, 66, 0.9);
+}
+
+#hero {
+    height: 530px;
+    background: -webkit-radial-gradient(center, circle cover, rgba(200,200,200,0.2) 0%, rgba(33,33,33,0.7) 100%);
+    color: #fff;
+}
+
+.blue {
+    background-color: #67BCD0;
+}
+
+.orange {
+    background-color: #FD9454;
+}
+
+.header {
+    height: 90px;
+}
+
+.headline, .headline > small { color: #fff; }
+.headline {
+    margin-top: 130px;
+    margin-bottom: 15px;
+    font-size: 42px;
+    font-weight: 500;
+}
+.headline > small {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.tools {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+#learnmore, #register-lead, #register {
+    color: #fff;
+    width: 180px;
+}
+
+#register-lead { margin-left: 20px; }
+
+#logo {
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    z-index: 400;
+}
+
+#logo img {
+    width: 175px;
+}
+
+#learn-more {
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+
+.key-points {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+@media (min-width: 768px) {
+    .key-points {
+        font-size: 23px;
+    }
+}
+
+#sign-up {
+    padding-top: 65px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+#sign-up h2 { color: #fff; }
+
+.sign-up-container {
+    margin: 35px auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+#register-input {
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-register {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff; 
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+}
+#register-spinner {
+    position: absolute;
+    top: 22px;
+    left: 42px;
+}
+
+#signed-up .sign-up-container {
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-register:hover {
+    color: #FD9454;
+    background: #fff;
+}
+
+#error-msg {
+    color: #333;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+@media (min-width: 768px) {
+    #register-input {
+        width: 400px;
+    }
+
+    .btn-register {
+        margin-left: 25px;
+        width: inherit;
+    }
+}
